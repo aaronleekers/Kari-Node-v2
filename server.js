@@ -53,7 +53,7 @@ const apiKey = process.env.API_KEY;
 
 
 const server = http.createServer((req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://chat.openai.com');
+  res.setHeader('Access-Control-Allow-Origin', '*'); // change to your domain
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   //Handle CORS preflight request

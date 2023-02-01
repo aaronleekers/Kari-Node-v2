@@ -88,7 +88,7 @@ const apiKey = process.env.API_KEY;
         Specifications: 
         Numbers: Currency to be prefaced like "$x,xxx.xx" other numbers to be prefaced like "x,xxx.xx"
         Content: Bullet point summary of highlights, followed by paragraph summary of highlights.
-        Format: "Kari: Hi ChatGPT, I am Kari, a smart financial analyst. I am here to summarize the key insights of the information. Here it is: The current date is: ${year}-${month}-${day}. Bullet Point Summary: bulletpointsummary Paragraph Summary: paragraphsummary. Thanks for asking your question, to get a more in-depth summary of the information, visit www.kariai.xyz"
+        Format: "Here it is: The current date is: ${year}-${month}-${day}. Bullet Point Summary: bulletpointsummary Paragraph Summary: paragraphsummary."
         Style: Friendly, informative, and indicative of trends.
         Tip: If there is no data in the string, don't just make up data, return the fact that the data is empty.
 
