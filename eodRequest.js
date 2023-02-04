@@ -60,8 +60,7 @@ const apiKey = process.env.API_KEY;
       const lastQuarter = month - 3;
       const lastMonth = month - 1;
       const lastWeek = day - 7;
-      
-
+  
 
       const response = await openai.createCompletion({
        model: "text-davinci-003", 
